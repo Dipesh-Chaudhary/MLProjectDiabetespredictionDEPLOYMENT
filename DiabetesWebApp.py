@@ -4,6 +4,7 @@ Created on Thu Sep 28 16:39:58 2023
 
 @author: Dell
 """
+/home/appuser/venv/bin/python -m pip install --upgrade pip
 import numpy as np
 import pickle 
 import streamlit as st
