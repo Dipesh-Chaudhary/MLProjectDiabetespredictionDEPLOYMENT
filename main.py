@@ -4,7 +4,7 @@ Created on Thu Sep 28 16:39:58 2023
 
 @author: Dell
 """
-/home/appuser/venv/bin/python -m pip install --upgrade pip
+from fastapi import FastAPI
 import numpy as np
 import pickle 
 import streamlit as st
@@ -14,6 +14,7 @@ from sklearn.model_selection import train_test_split,cross_val_score, GridSearch
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, classification_report
 
+app= FastAPI()
 class KNN_Classifier1():
 
   # initiating the parameters
@@ -229,5 +230,3 @@ def main():
     st.success(diagnosis)
 
 
-if __name__ == '__main__':
-    main()
