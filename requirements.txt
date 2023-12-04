@@ -1,6 +1,7 @@
 fastapi
 cloudpickle==2.2.1
 gitpython==3.1.37
+glib>=2.0.0
 importlib-metadata==6.0.0       
 importlib_metadata==6.0.0       
 ipykernel==6.25.0         
