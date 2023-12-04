@@ -228,5 +228,6 @@ def main():
         diagnosis= diabetes_prediction([a,b,c,d,e,f,g,h,i])
         
     st.success(diagnosis)
-
+if __name__ == '__main__':
+    main()
 
