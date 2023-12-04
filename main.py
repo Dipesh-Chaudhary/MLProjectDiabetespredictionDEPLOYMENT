@@ -69,7 +69,7 @@ class KNN_Classifier1():
 
 
 
-loaded_model = pickle.load(open("C:/DIPESH/study materials/sixth sem/PROJECT FOLDER/original dataset/2022 SAS/6 Model Building/knnTrainedModelFromScratch.sav","rb"))
+loaded_model = pickle.load(open("knnTrainedModelFromScratch.sav","rb"))
 
 def diabetes_prediction(input_data):
     
